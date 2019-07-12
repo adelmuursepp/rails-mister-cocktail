@@ -9,5 +9,7 @@
     </div>
   <% end %>
   <%= f.input :name %>
+  <%= f.input :photo, label: 'The quantity of ingredient' %>
+  <%= f.input :photo_cache, as: :hidden %>
   <%= f.button :submit, class: 'btn btn-primary'%>
 <% end %>
